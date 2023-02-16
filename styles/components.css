@@ -1,8 +1,8 @@
 /*--HEADER STYLES--*/
 .Nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0px; 
     padding: 15px 0px 0px 0px;
     font-size: 20px;
@@ -32,11 +32,11 @@
    }
    
    li a:hover:not(.active) {
-     background-color: #b8b8b8;
+     text-decoration: underline;
    }
    
    .active {
-     background-color: #2f306d9d;
+     text-decoration: underline;
    }
 
 
@@ -48,7 +48,7 @@
     align-items: end;
     margin: 0px 30px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     position: -webkit-sticky;
     position: sticky;
   }
