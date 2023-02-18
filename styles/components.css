@@ -1,4 +1,8 @@
 /*--HEADER STYLES--*/
+.logo{
+    padding-left: 20px;
+
+}
 .Nav{
     display: flex;
     flex-direction: row;
@@ -14,6 +18,7 @@
      list-style-type: none;
      margin: 0;
      padding: 0;
+     padding-right: 20px;
      overflow: hidden;
    }
    
@@ -57,3 +62,6 @@
     width: 50px;
   }
 
+  .social-menu img:hover{
+    opacity: 50%;
+  }

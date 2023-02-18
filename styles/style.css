@@ -17,7 +17,7 @@ body {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 50% 100%;
 	}
 	100% {
 		background-position: 0% 50%;
@@ -26,9 +26,9 @@ body {
 
   .hero-sect{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: 5px;
-    justify-content: left;
-    justify-content: space-between;
   }
 
   h1{
@@ -62,11 +62,12 @@ button.cta{
 }
 
 .right-col{
-  justify-content: right;
-  z-index: 1;
-  height: 120%;
+  height: 10%;
 }
 
+.right-col img{
+  width: 60vw;
+}
 
 span::before {
     content: "a Product Designer";
