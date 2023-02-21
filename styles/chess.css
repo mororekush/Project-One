@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.chessboard{
+/*.chessboard{
     width: 700px;
     background-color: grey;
     border: 2px;
@@ -19,6 +19,43 @@
     vertical-align: middle;
     float: left;
 }
+
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}*/
+
+.chessboard{
+    margin: 40px 0px 0px 80px;
+    width: 500px;
+    background-color: grey;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
 
 .white{
     width: 100px;
